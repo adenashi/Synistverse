@@ -7,5 +7,8 @@
   },
   "devDependencies": {
     "markdown-it-obsidian": "^1.1.0"
-  }
+  },
+  "scripts": {
+	"build-ghpages": "npx @11ty/eleventy"
+}
 }
