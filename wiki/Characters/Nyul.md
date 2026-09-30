@@ -10,4 +10,4 @@ Occupation: Renegade Aetherwork Mechanic
 img_src: Placeholder.png
 img_alt: Placeholder
 ---
-Add content here.
+Coming soon.

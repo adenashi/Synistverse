@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game/Core Gameplay.md",
+                "file": "Worldbuilding/Shrines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Core Gameplay"
+              "title": "Shrines"
             }
           }
         ],
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game/Core Gameplay.md",
+                "file": "Worldbuilding/Shrines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Game/Core Gameplay.md"
+                "file": "Worldbuilding/Shrines.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -217,15 +217,29 @@
   },
   "active": "8e01b79e06a555bb",
   "lastOpenFiles": [
-    "Game/Card Moods.md",
-    "Game/Core Gameplay.md",
-    "Game/Card Types.md",
-    "Worldbuilding/Maexa.md",
+    "Worldbuilding/Regions of Haenem.md",
     "Worldbuilding/Shrines.md",
     "Worldbuilding/Monxa Tree.md",
+    "Worldbuilding/Maexa.md",
+    "Worldbuilding/Humans.md",
+    "Worldbuilding/History.md",
+    "Worldbuilding/Haenish.md",
+    "Worldbuilding/Haenem.md",
+    "Worldbuilding/Gods.md",
+    "Worldbuilding/Demons.md",
+    "Worldbuilding/Cloud Riders.md",
+    "Worldbuilding/Aetherworks.md",
+    "Worldbuilding/Angels.md",
+    "Worldbuilding/Aether Guild.md",
+    "Worldbuilding/Aether.md",
+    "Game/Core Gameplay.md",
+    "Game/Card Types.md",
+    "Game/Card Moods.md",
+    "Characters/Thaen.md",
+    "Characters/Nyul.md",
+    "Characters/Gyan.md",
     "x/templates/Character Template.md",
     "x/templates/Entry Template.md",
-    "Characters/Thaen.md",
     "x/attachments/Monxa Tree Concept.png",
     "x/attachments/Monxa Fruit Concept.png",
     "x/attachments/Maexa Symbols.png",
@@ -236,20 +250,6 @@
     "x/attachments/MaexaSymbols.png",
     "x/attachments/CardSymbols.png",
     "x/attachments/ShrineConcepts.png",
-    "Characters/Nyul.md",
-    "Characters/Gyan.md",
-    "Worldbuilding/Regions of Haenem.md",
-    "Worldbuilding/Humans.md",
-    "Worldbuilding/History.md",
-    "Worldbuilding/Haenish.md",
-    "Worldbuilding/Haenem.md",
-    "Worldbuilding/Gods.md",
-    "Worldbuilding/Demons.md",
-    "Worldbuilding/Cloud Riders.md",
-    "Worldbuilding/Angels.md",
-    "Worldbuilding/Aetherworks.md",
-    "Worldbuilding/Aether Guild.md",
-    "Worldbuilding/Aether.md",
     "Worldbuilding/Species.md",
     "Worldbuilding/Syna.md",
     "wiki/Worldbuilding",

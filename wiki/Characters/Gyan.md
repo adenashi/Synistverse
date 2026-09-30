@@ -10,5 +10,5 @@ Occupation: Ex-soldier
 img_src: Placeholder.png
 img_alt: Placeholder
 ---
-Add content here.
+Coming soon.
 

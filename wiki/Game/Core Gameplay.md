@@ -6,4 +6,4 @@ tags:
 img_src: Placeholder.png
 img_alt: Placeholder
 ---
-Content goes here.
+Coming soon.
