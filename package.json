@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@11ty/eleventy-img": "^7.0.0",
+    "eleventy-plugin-backlinks": "^1.0.0",
+    "markdown-it": "^15.0.2",
+    "markdown-it-replace-link": "^1.2.2"
+  },
+  "devDependencies": {
+    "markdown-it-obsidian": "^1.1.0"
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Card Types | The Synistverse</title>
+
+<!-- Link to your external CSS file -->
+<link rel="stylesheet" href="/style.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;1,300&family=Manufacturing+Consent&display=swap');
+</style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/lore">Lore</a>
+        <a href="/people">People</a>
+        <a href="/game">Game</a>
+    </div>
+
+<div class="main">
+    <h1>Card Types</h1>
+    <p class="subtitle">Gameplay</p>
+    <div class="entry">
+        <div class="content">
+            <!-- Your visible website content goes here -->
+            <p>There are five types of cards in Synist:</p>
+<h2>Positions</h2>
+<p>Positions can only be played one at a time. When played, they reset the orgasm meters for all active participants in the ritual. They drain Thaen's stamina for as long as they are in play.</p>
+<h2>Actions</h2>
+<p>Actions can be stacked on positions, or played on a companion.</p>
+<h2>Stimulants</h2>
+<p>Can only be played when a position is not active on the board.</p>
+<h2>Items</h2>
+<p>Can be played during pauses, or creates a pause when played.</p>
+<h2>Participants</h2>
+<p>Can either be a companion of the harem, or a member of the audience. Audience members only show up in the deck when they come to the shrine for a ritual. Audience members can be leveled up through repeated use in order to convert them into permanent companions.</p>
+
+        </div>
+
+        <div class="sidebar">
+            
+                <h3>Related</h3>
+                <ul class="plain-list">
+                    
+                        
+                            <li><a href="/wiki/Game/Core Gameplay/">Core Gameplay</a></li>
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/wiki/Game/Card Moods/">Card Moods</a></li>
+                        
+                    
+                </ul>
+                        
+        </div>
+     </div>
+</div>
+
+<div id="modal1" class="modal">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <picture><source type="image/webp" srcset="/.11ty/image/?src=wiki%5Cx%5Cattachments%5CPlaceholder.png&width=1920&format=webp&via=transform"><img src="/.11ty/image/?src=wiki%5Cx%5Cattachments%5CPlaceholder.png&width=1920&format=jpeg&via=transform" alt="Placeholder" class="modal-content" width="1920" height="1080"></picture>
+</div>
+
+<footer>
+    <hr>
+<div class="footer">
+    <p>
+        <a href="https://www.patreon.com/cw/Synist">Patreon</a> &middot; 
+        <a href="https://www.youtube.com/@SynistVerse">YouTube</a> &middot; 
+        <a href="https://bsky.app/profile/synist.bsky.social">Bluesky</a> 
+    </p>
+    <p class="small">
+        &copy; 2026 Neon Noods Games. Please do not copy or use without permission.
+    </p>
+    <p class="small">
+        NO AI TRAINING: Without in any way limiting the author’s [and publisher’s] exclusive rights under copyright, any use of this publication to “train” generative artificial intelligence (AI) technologies to generate text is expressly prohibited. The author reserves all rights to license uses of this work for generative AI training and development of machine learning language models.
+    </p>
+</div>
+</footer>
+
+<script>
+function openModal(modalId, caption) {
+  let modal = document.getElementById(modalId);
+  modal.style.display = "flex";
+  modal.classList.add("show");
+  let message = modal.querySelector(".caption");
+  message.innerText = caption;
+}
+
+function closeModal(modalId) {
+  let modal = document.getElementById(modalId);
+  modal.classList.remove("show");
+  setTimeout(function () {
+    modal.style.display = "none";
+    modal.querySelector(".caption").innerText = "";
+  }, 300);
+}
+</script>
+
+</body>
+
+</html>

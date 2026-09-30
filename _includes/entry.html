@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{{title | default: "Wiki Entry"}} | The Synistverse</title>
+
+<!-- Link to your external CSS file -->
+<link rel="stylesheet" href="/style.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;1,300&family=Manufacturing+Consent&display=swap');
+</style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/lore">Lore</a>
+        <a href="/people">People</a>
+        <a href="/game">Game</a>
+    </div>
+
+<div class="main">
+    <h1>{{title | default: "Wiki Entry"}}</h1>
+    <p class="subtitle">{{tags}}</p>
+    <div class="entry">
+        <div class="content">
+            <!-- Your visible website content goes here -->
+            {{content}}
+        </div>
+
+        <div class="sidebar">
+            {% for tag in tags %}
+                <h3>Related</h3>
+                <ul class="plain-list">
+                    {% for post in collections[tag] %}
+                        {% if post.url != page.url %}
+                            <li><a href="{{post.url}}">{{post.data.title}}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endfor %}            
+        </div>
+     </div>
+</div>
+
+<div id="modal1" class="modal">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <img src="/wiki/x/attachments/{{img_src | default:Placeholder.png}}" alt="{{img_alt | default: Placeholder}}" class="modal-content">
+</div>
+
+<footer>
+    <hr/>
+<div class="footer">
+    <p>
+        <a href="https://www.patreon.com/cw/Synist">Patreon</a> &middot; 
+        <a href="https://www.youtube.com/@SynistVerse">YouTube</a> &middot; 
+        <a href="https://bsky.app/profile/synist.bsky.social">Bluesky</a> 
+    </p>
+    <p class="small">
+        &copy; 2026 Neon Noods Games. Please do not copy or use without permission.
+    </p>
+    <p class="small">
+        NO AI TRAINING: Without in any way limiting the author’s [and publisher’s] exclusive rights under copyright, any use of this publication to “train” generative artificial intelligence (AI) technologies to generate text is expressly prohibited. The author reserves all rights to license uses of this work for generative AI training and development of machine learning language models.
+    </p>
+</div>
+</footer>
+
+<script>
+function openModal(modalId, caption) {
+  let modal = document.getElementById(modalId);
+  modal.style.display = "flex";
+  modal.classList.add("show");
+  let message = modal.querySelector(".caption");
+  message.innerText = caption;
+}
+
+function closeModal(modalId) {
+  let modal = document.getElementById(modalId);
+  modal.classList.remove("show");
+  setTimeout(function () {
+    modal.style.display = "none";
+    modal.querySelector(".caption").innerText = "";
+  }, 300);
+}
+</script>
+
+</body>
+
+</html>

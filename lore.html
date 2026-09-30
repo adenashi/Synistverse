@@ -1,0 +1,37 @@
+---
+layout: layout.html
+title: Lore
+---
+
+<div>
+    <p class="subheading">
+        All the worldbuilding that I've done so far for Haenem, the setting of Synist.
+    </p>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h3 align="center">Locations</h3>
+        <ul class="plain-list">
+            {% for post in collections.Locations %}
+            <li align="center"><a href="{{post.url}}">{{ post.data.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col">
+        <h3 align="center">Magic</h3>
+        <ul class="plain-list">
+            {% for post in collections.Magic %}
+            <li align="center"><a href="{{post.url}}">{{ post.data.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col">
+        <h3 align="center">Culture</h3>
+        <ul class="plain-list">
+            {% for post in collections.Culture %}
+            <li align="center"><a href="{{post.url}}">{{ post.data.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
