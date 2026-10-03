@@ -35,3 +35,12 @@ People in Haenem build their lives around what they believe to be their best mea
 Haenem functions like a medieval kingdom, but with a bit of magic in the form of [Aetherworks](../Aetherworks). Though not everyone can afford elaborate pieces, most people have at least one or two Aetherwork items that help them in their daily life.
 
 Most people in Haenem are farmers, though not as many as in a typical medieval kingdom. With the help of Aetherworks, fewer people are needed to get the same amount of work done. Those who would have been farmers are now craftsmen, and help maintain Haenem's trade economy. Nearly all Aetherworks mechanics are part of [The Aether Guild](../The%20Aether%20Guild), though there are a few renegade mechanics here and there -- people that the Guild excommunicated or refused to accept, or who never sought out the Guild's help in the first place.
+
+<br/>
+<img src="/wiki/x/attachments/HaenishClothing.png" alt="Designs of clothing worn by contemporary Haenish people." width="600" eleventy:formats="png" onclick="openModal('modal2', 'Designs of clothing worn by contemporary Haenish people.')">
+<br/>
+
+<div id="modal2" class="modal">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <img src="/wiki/x/attachments/HaenishClothing.png" alt="Designs of clothing worn by contemporary Haenish people." class="modal-content">
+</div>
