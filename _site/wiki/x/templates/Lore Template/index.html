@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Lore | The Synistverse</title>
+<meta name="" description"="" content="A living compendium of the worldbuilding and development of Synist.">
+
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-
-<title>The Synistverse</title>
-<meta name="" description"="" content="A living compendium of the worldbuilding and development of Synist.">
 
 <!-- Link to your external CSS file -->
 <link rel="stylesheet" href="/style.css">
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div class="nav">
+     <div class="nav">
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/lore">Lore</a>
@@ -31,30 +31,23 @@
     <a href="/game">Game</a>
 </div>
 
-    <div class="header">
-        <h1>Lore</h1>
-    </div>
-
-
 <div class="main">
-
-    
-<div>
-    <p class="subheading">
-        All the worldbuilding that I've done so far.
-    </p>
-</div>
-
-<div class="row">
-    <div class="col">
-        <ul class="plain-list">
+    <h1>Lore</h1>
+    <div class="entry">
+        <div class="content">
+            <!-- Your visible website content goes here -->
             
-            <li align="center"><a href="/wiki/The Synist Order/">The Synist Order</a></li>
+        </div>
+        
+        <div class="sidebar">
             
-        </ul>
+        </div>
     </div>
 </div>
-    
+
+<div id="modal1" class="modal">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <picture><source type="image/webp" srcset="/.11ty/image/?src=wiki%5Cx%5Cattachments%5CPlaceholder.png&width=1920&format=webp&via=transform"><img src="/.11ty/image/?src=wiki%5Cx%5Cattachments%5CPlaceholder.png&width=1920&format=jpeg&via=transform" alt="Placeholder" class="modal-content" width="1920" height="1080"></picture>
 </div>
 
 <footer>
@@ -74,9 +67,24 @@
 </div>
 </footer>
 
+<script>
+function openModal(modalId, caption) {
+  let modal = document.getElementById(modalId);
+  modal.style.display = "flex";
+  modal.classList.add("show");
+  let message = modal.querySelector(".caption");
+  message.innerText = caption;
+}
 
-<!-- Link to your external JavaScript file -->
-<script src="script.js"></script>
+function closeModal(modalId) {
+  let modal = document.getElementById(modalId);
+  modal.classList.remove("show");
+  setTimeout(function () {
+    modal.style.display = "none";
+    modal.querySelector(".caption").innerText = "";
+  }, 300);
+}
+</script>
 
 </body>
 

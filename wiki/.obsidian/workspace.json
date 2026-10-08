@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21c0ffd68eb3a349",
+            "id": "0ab48a6eb2c52ae4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worldbuilding/Aether.md",
+                "file": "Game Rules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aether"
-            }
-          },
-          {
-            "id": "8e01b79e06a555bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Worldbuilding/Haenem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Haenem"
+              "title": "Game Rules"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,19 +200,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "8e01b79e06a555bb",
+  "active": "0ab48a6eb2c52ae4",
   "lastOpenFiles": [
+    "Card Types.md",
+    "The Synist Order.md",
+    "Moods.md",
+    "Game Rules.md",
+    "x/templates/Lore Template.md",
+    "x/templates/Gameplay Template.md",
+    "x/templates/Character Template.md",
+    "x/templates/Group Template.md",
+    "x/templates/Location Template.md",
+    "x/attachments/Placeholder.png",
+    "x/Character Template.md",
+    "x/Entry Template.md",
+    "x/AngelEyes.png",
+    "x/AncientSynists.png",
+    "x/ThaenFace.png",
+    "x/ShrineConcepts.png",
+    "x/Placeholder.png",
+    "x/NewSynists.png",
+    "x/MonxaFruit.png",
+    "x/MaexaSymbols.png",
+    "x/HaenishClothing.png",
+    "Worldbuilding/Haenem.md",
     "Worldbuilding/New Synists.md",
     "Worldbuilding/Humans.md",
     "Worldbuilding/Haenish.md",
-    "Worldbuilding/Haenem.md",
-    "x/attachments/HaenishClothing.png",
-    "x/attachments/Haenish Clothing.png",
-    "x/attachments/NewSynists.png",
-    "x/attachments/New Synist Clothing.png",
     "Worldbuilding/Ancient Synists.md",
-    "x/attachments/AncientSynists.png",
-    "x/attachments/Ancient Synist Garb - Mixed.png",
     "Worldbuilding/Shrines.md",
     "Worldbuilding/Regions of Haenem.md",
     "Worldbuilding/Monxa Tree.md",
@@ -238,20 +238,6 @@
     "Worldbuilding/Cloud Riders.md",
     "Worldbuilding/Aetherworks.md",
     "Worldbuilding/Angels.md",
-    "Worldbuilding/Aether Guild.md",
-    "Worldbuilding/Aether.md",
-    "Game/Core Gameplay.md",
-    "Game/Card Types.md",
-    "Game/Card Moods.md",
-    "Characters/Thaen.md",
-    "Characters/Nyul.md",
-    "Characters/Gyan.md",
-    "x/templates/Character Template.md",
-    "x/templates/Entry Template.md",
-    "x/attachments/Monxa Tree Concept.png",
-    "x/attachments/Monxa Fruit Concept.png",
-    "x/attachments/Maexa Symbols.png",
-    "x/attachments/Maexa Card Symbols.png",
     "wiki/Worldbuilding",
     "wiki",
     "x/attachments",

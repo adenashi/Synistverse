@@ -1,11 +1,7 @@
 ---
 title:
-layout: character.html
+layout: gameplay.html
 tags:
-Age:
-Species:
-Role:
-Moods:
 img_src: Placeholder.png
 img_alt: Placeholder
 ---
