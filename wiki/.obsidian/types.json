@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "Age": "number",
-    "Moods": "multitext"
+    "Moods": "multitext",
+    "characters": "multitext"
   }
 }

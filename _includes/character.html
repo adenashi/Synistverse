@@ -49,7 +49,11 @@
                     </tr>
                     <tr>
                         <td>Moods</td>
-                        <td>{{Moods}}</td>
+                        <td>
+                            {% for mood in Moods %}
+                            {{mood}}<br/>
+                            {% endfor %}
+                        </td>
                     </tr>
                 </table>
             <br/>

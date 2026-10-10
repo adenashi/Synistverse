@@ -1,5 +1,5 @@
 ---
-title: The Synist Order
+title: The God War
 layout: lore.html
 tags:
   - Lore

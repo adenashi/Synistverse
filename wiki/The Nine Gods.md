@@ -1,5 +1,5 @@
 ---
-title: The Synist Order
+title: The Nine Gods
 layout: lore.html
 tags:
   - Lore

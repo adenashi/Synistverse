@@ -3,6 +3,7 @@ title:
 layout: character.html
 tags:
 Age:
+Sex:
 Species:
 Role:
 Moods:

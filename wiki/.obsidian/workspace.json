@@ -20,8 +20,51 @@
               "icon": "lucide-file",
               "title": "Game Rules"
             }
+          },
+          {
+            "id": "05d03173fba50201",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Nine Gods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Nine Gods"
+            }
+          },
+          {
+            "id": "82551c9cd97b2ac3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The God War.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The God War"
+            }
+          },
+          {
+            "id": "3e9422dd71268005",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Humans.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Humans"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,15 +243,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "0ab48a6eb2c52ae4",
+  "active": "3e9422dd71268005",
   "lastOpenFiles": [
+    "Demons.md",
+    "The God War.md",
+    "Humans.md",
+    "The Nine Gods.md",
+    "Angels.md",
+    "The Collective.md",
+    "x/templates/Gameplay Template.md",
+    "x/templates/Character Template.md",
     "Card Types.md",
+    "Nyul.md",
+    "San.md",
+    "Gyan.md",
+    "Aela.md",
     "The Synist Order.md",
     "Moods.md",
     "Game Rules.md",
     "x/templates/Lore Template.md",
-    "x/templates/Gameplay Template.md",
-    "x/templates/Character Template.md",
     "x/templates/Group Template.md",
     "x/templates/Location Template.md",
     "x/attachments/Placeholder.png",
@@ -228,16 +281,6 @@
     "Worldbuilding/Humans.md",
     "Worldbuilding/Haenish.md",
     "Worldbuilding/Ancient Synists.md",
-    "Worldbuilding/Shrines.md",
-    "Worldbuilding/Regions of Haenem.md",
-    "Worldbuilding/Monxa Tree.md",
-    "Worldbuilding/Maexa.md",
-    "Worldbuilding/History.md",
-    "Worldbuilding/Gods.md",
-    "Worldbuilding/Demons.md",
-    "Worldbuilding/Cloud Riders.md",
-    "Worldbuilding/Aetherworks.md",
-    "Worldbuilding/Angels.md",
     "wiki/Worldbuilding",
     "wiki",
     "x/attachments",

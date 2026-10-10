@@ -34,6 +34,15 @@
         </div>
         
         <div class="sidebar">
+            {% if characters %}
+            <h3>Named {{title}}</h3>
+            <ul class="plain-list">
+                {% for item in characters %}
+                    <li><a href="/wiki/{{item}}">{{item}}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
             {% for tag in tags %}
                 <h3>{{tag}}</h3>
                 <ul class="plain-list">

@@ -1,5 +1,5 @@
 ---
-title: The Synist Order
+title: The Collective
 layout: lore.html
 tags:
   - Lore
