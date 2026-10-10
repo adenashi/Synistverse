@@ -5,6 +5,8 @@
     "tags": "tags",
     "Age": "number",
     "Moods": "multitext",
-    "characters": "multitext"
+    "characters": "multitext",
+    "sidebar": "text",
+    "sb_list": "multitext"
   }
 }
